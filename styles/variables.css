@@ -1,15 +1,15 @@
 :root {
   /* ===== ЦВЕТА И ФОН ===== */
   /* Основные цвета */
-  --td__background-color: #000028;
-  --td__main_text_font-color: #F1B2CE;
-  --td__font_title_font-color: #000028;
-  --td__main_title_font-color: #FF0070;
-  --td__shadow_color__and__background-color: #FF0070;
-  --td__header__and__footer_title_font_font-color: #DB00FF;
-  --td__border-color: #FF0070;
-  --td__transparent-border-color: #FF007066;
-  --td__top_right_corner_dot_visibility: visible;
+  --td__background-color: #FFF1F7;
+  --td__main_text_font-color: #353430;
+  --td__font_title_font-color: #353430;
+  --td__main_title_font-color: #353430;
+  --td__shadow_color__and__background-color: #FF8DCB;
+  --td__header__and__footer_title_font_font-color: #FFC2E6;
+  --td__border-color: #353430;
+  --td__transparent-border-color: #32312D66;
+  --td__top_right_corner_dot_visibility: hidden;
 
   /* Производные цвета */
   --text_shadow_color: var(--td__shadow_color__and__background-color);
@@ -20,7 +20,7 @@
   --angle_border: 1px solid var(--td__border-color);
 
   /* Фоновые изображения */
-  --td__page_background-image: url('../images/cover-image-dark.png');
+  --td__page_background-image: url('../images/cover-image-light.png');
   --header_background-image: var(--td__header_background-image);
 
   /* ===== ТИПОГРАФИКА ===== */
