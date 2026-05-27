@@ -10,15 +10,15 @@
   --td__border-color: #353430;
   --td__transparent-border-color: #32312D66;
   --td__top_right_corner_dot_visibility: hidden;
-
+  
   /* Производные цвета */
   --text_shadow_color: var(--td__shadow_color__and__background-color);
   --text_background-color: var(--td__shadow_color__and__background-color);
   --button_hover_bottom-border_color: var(--td__main_title_font-color);
-
+  
   /* Границы */
   --angle_border: 1px solid var(--td__border-color);
-
+  
   /* Фоновые изображения */
   --td__page_background-image: url('../images/cover-image-light.png');
   --header_background-image: var(--td__header_background-image);
@@ -30,13 +30,13 @@
   --font_font-weight: 400;
   --font_letter-spacing: 0;
   --font_line-height: 1.3;
-
+  
   /* Жирный шрифт */
   --font_bold_font-weight: 700;
-
+  
   /* Специальные размеры */
   --sd__header__and__footer_font_font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-
+  
   /* Тени текста */
   --header_font_shadow_params: 4px 4px 0 var(--text_shadow_color);
   --footer_font_shadow_params: 2px 2px 0 var(--text_shadow_color);
@@ -45,13 +45,13 @@
   /* ===== ОТСТУПЫ И РАЗМЕРЫ ===== */
   /* Базовые отступы */
   --sd__padding_size: 10px;
-
+  
   /* Основные отступы */
   --sd__header_bottom__and__footer_top_margin: 40px;
   --header_bottom-margin: var(--sd__header_bottom__and__footer_top_margin);
   --footer_top-margin: var(--sd__header_bottom__and__footer_top_margin);
   --sd__main_gap: 50px;
-
+  
   /* Размеры углов */
   --header_corner_size: 25px;
 
@@ -61,7 +61,7 @@
   --sd__header_template-columns-count: 1;
   --header_grid-template-rows: 1fr min-content 1fr;
   --header_grid-template-columns: repeat(var(--sd__header_template-columns-count), 1fr);
-
+  
   /* Позиционирование элементов */
   --header_theme-menu_grid-row: 1 / span 1;
 
@@ -71,7 +71,7 @@
   --sd__header_title_grid-column: 1 / span 1;
   --sd__header_text_grid-column: 1 / span 1;
   --sd__header_text_grid-row: 3 / span 1;
-
+  
   /* Выравнивание */
   --sd__header_theme-menu-list_flex-direction: column;
   --sd__header_theme-menu-list_align-self: center;
@@ -106,7 +106,7 @@
   --sd__main_block_style_horizontal_inner_grid-column: 1 / span 1;
 
   --main_block_inner_gap: 20px;
-
+  
   /* Блок с изображениями */
   --sd__main_images-block_gap: 10px;
   --sd__main_images-block_images_grid-template-rows: repeat(5, min-content);
@@ -116,10 +116,8 @@
   /* Активные состояния */
   --button_default_active_border: 1px solid var(--td__border-color);
   --button_focus_bottom-border: 1px solid var(--td__font_font-color);
-
+  
   /* Hover состояния */
   --button_hover_border: 1px solid var(--td__transparent-border-color);
 
 }
-
-/* Коммит для повторения тестов */

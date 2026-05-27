@@ -1,4 +1,8 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+/* html, body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+} */
 
 .page {
   background-color: var(--td__background-color);
@@ -374,7 +378,7 @@
 }
 
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     /* ===== ЦВЕТА И ФОН ===== */
     /* Основные цвета */
